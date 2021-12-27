@@ -1,0 +1,672 @@
+{
+  "cells": [
+    {
+      "type": "standard.Rectangle",
+      "position": {
+        "x": 145,
+        "y": 170
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "angle": 0,
+      "id": "e4f2a7f4-cdbf-4375-825c-8faa09890da0",
+      "z": 1,
+      "attrs": {
+        "body": {
+          "fill": "rgb(49, 208, 198)"
+        },
+        "label": {
+          "fill": "white",
+          "text": "User"
+        }
+      }
+    },
+    {
+      "type": "standard.Rectangle",
+      "position": {
+        "x": 375,
+        "y": 330
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "angle": 0,
+      "id": "2e77ff9d-ca1f-46ae-81c6-4ccb5fc3073e",
+      "z": 2,
+      "attrs": {
+        "body": {
+          "fill": "rgb(49, 208, 198)"
+        },
+        "label": {
+          "fill": "white",
+          "text": "Ratings"
+        }
+      }
+    },
+    {
+      "type": "standard.Rectangle",
+      "position": {
+        "x": 600,
+        "y": 170
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "angle": 0,
+      "id": "e19f9d52-99d7-403e-bb37-a1185a2040d6",
+      "z": 3,
+      "attrs": {
+        "body": {
+          "fill": "rgb(49, 208, 198)"
+        },
+        "label": {
+          "fill": "white",
+          "text": "Post"
+        }
+      }
+    },
+    {
+      "type": "standard.Rectangle",
+      "position": {
+        "x": 600,
+        "y": 470
+      },
+      "size": {
+        "width": 120,
+        "height": 60
+      },
+      "angle": 0,
+      "id": "2b5a9ef1-dc9d-448a-b687-e916643752d9",
+      "z": 4,
+      "attrs": {
+        "body": {
+          "fill": "rgb(49, 208, 198)"
+        },
+        "label": {
+          "fill": "white",
+          "text": "Category"
+        }
+      }
+    },
+    {
+      "type": "standard.Polygon",
+      "position": {
+        "x": 597,
+        "y": 300
+      },
+      "size": {
+        "width": 130,
+        "height": 80
+      },
+      "angle": 0,
+      "id": "c6dc9904-e944-446b-b21c-c966fe3796f3",
+      "z": 5,
+      "attrs": {
+        "body": {
+          "refPoints": "40,0 80,40 40,80 0,40",
+          "fill": "rgb(121, 125, 154)"
+        },
+        "label": {
+          "fill": "white",
+          "text": "Categorized_in"
+        }
+      }
+    },
+    {
+      "type": "standard.Polygon",
+      "position": {
+        "x": 395,
+        "y": 165
+      },
+      "size": {
+        "width": 90,
+        "height": 80
+      },
+      "angle": 0,
+      "id": "21b7aad7-fdec-41b7-8d0e-e65273c9d9c9",
+      "z": 6,
+      "attrs": {
+        "body": {
+          "refPoints": "40,0 80,40 40,80 0,40",
+          "fill": "rgb(124, 104, 253)"
+        },
+        "label": {
+          "fill": "white",
+          "text": "Writes"
+        }
+      }
+    },
+    {
+      "type": "standard.Ellipse",
+      "position": {
+        "x": 40,
+        "y": 60
+      },
+      "size": {
+        "width": 100,
+        "height": 50
+      },
+      "angle": 0,
+      "id": "9fd590db-2434-4b16-87cc-1fb11ed54032",
+      "z": 7,
+      "attrs": {
+        "body": {
+          "fill": "rgb(254, 182, 98)"
+        },
+        "label": {
+          "fill": "white",
+          "text": "Birth Date"
+        }
+      }
+    },
+    {
+      "type": "standard.Ellipse",
+      "position": {
+        "x": 125,
+        "y": 10
+      },
+      "size": {
+        "width": 120,
+        "height": 50
+      },
+      "angle": 0,
+      "id": "cdebca44-0aad-462c-803b-4e3d6866ecf8",
+      "z": 8,
+      "attrs": {
+        "body": {
+          "fill": "rgb(254, 133, 79)"
+        },
+        "label": {
+          "fill": "white",
+          "text": "User Name"
+        }
+      }
+    },
+    {
+      "type": "standard.Ellipse",
+      "position": {
+        "x": 260,
+        "y": 60
+      },
+      "size": {
+        "width": 150,
+        "height": 50
+      },
+      "angle": 0,
+      "id": "b378ceb8-fb70-484b-be61-b369e118da36",
+      "z": 9,
+      "attrs": {
+        "body": {
+          "fill": "rgb(254, 133, 80)"
+        },
+        "label": {
+          "fill": "white",
+          "text": "Registration Date"
+        }
+      }
+    },
+    {
+      "type": "standard.Ellipse",
+      "position": {
+        "x": 560,
+        "y": 45
+      },
+      "size": {
+        "width": 120,
+        "height": 50
+      },
+      "angle": 0,
+      "id": "6a07834e-5e59-404c-a61c-2852f63dccc9",
+      "z": 10,
+      "attrs": {
+        "body": {
+          "fill": "rgb(252, 160, 121)"
+        },
+        "label": {
+          "fill": "white",
+          "text": "Image"
+        }
+      }
+    },
+    {
+      "type": "standard.Ellipse",
+      "position": {
+        "x": 700,
+        "y": 45
+      },
+      "size": {
+        "width": 120,
+        "height": 50
+      },
+      "angle": 0,
+      "id": "081da5b2-5e61-4798-a14f-1c9394362bf6",
+      "z": 11,
+      "attrs": {
+        "body": {
+          "fill": "rgb(254, 133, 80)"
+        },
+        "label": {
+          "fill": "white",
+          "text": "Description"
+        }
+      }
+    },
+    {
+      "type": "standard.Ellipse",
+      "position": {
+        "x": 805,
+        "y": 475
+      },
+      "size": {
+        "width": 120,
+        "height": 50
+      },
+      "angle": 0,
+      "id": "c925e20f-66dd-4890-9ad0-e42df33b148d",
+      "z": 12,
+      "attrs": {
+        "body": {
+          "fill": "rgb(254, 182, 98)"
+        },
+        "label": {
+          "fill": "white",
+          "text": "Plate"
+        }
+      }
+    },
+    {
+      "type": "standard.Ellipse",
+      "position": {
+        "x": 10,
+        "y": 170
+      },
+      "size": {
+        "width": 100,
+        "height": 50
+      },
+      "angle": 0,
+      "id": "44ca1733-c124-45b3-bee6-fb8ed83c2e35",
+      "z": 13,
+      "attrs": {
+        "body": {
+          "fill": "rgb(254, 182, 98)"
+        },
+        "label": {
+          "fill": "white",
+          "text": "E-mail"
+        }
+      }
+    },
+    {
+      "type": "standard.Ellipse",
+      "position": {
+        "x": 150,
+        "y": 340
+      },
+      "size": {
+        "width": 120,
+        "height": 50
+      },
+      "angle": 0,
+      "id": "3186b4dc-af75-4ed1-b9d9-50cd3405b20d",
+      "z": 14,
+      "attrs": {
+        "body": {
+          "fill": "rgb(254, 182, 98)"
+        },
+        "label": {
+          "fill": "white",
+          "text": "Starts"
+        }
+      }
+    },
+    {
+      "type": "standard.Ellipse",
+      "position": {
+        "x": 190,
+        "y": 435
+      },
+      "size": {
+        "width": 120,
+        "height": 50
+      },
+      "angle": 0,
+      "id": "fb2f108d-1797-4e16-b298-fcac30fd36e7",
+      "z": 15,
+      "attrs": {
+        "body": {
+          "fill": "rgb(254, 182, 98)"
+        },
+        "label": {
+          "fill": "white",
+          "text": "Id"
+        }
+      }
+    },
+    {
+      "type": "standard.Ellipse",
+      "position": {
+        "x": 375,
+        "y": 475
+      },
+      "size": {
+        "width": 120,
+        "height": 50
+      },
+      "angle": 0,
+      "id": "8b40c200-ec73-461e-a801-873cfbc2b26a",
+      "z": 16,
+      "attrs": {
+        "body": {
+          "fill": "rgb(254, 182, 98)"
+        },
+        "label": {
+          "fill": "white",
+          "text": "Comments"
+        }
+      }
+    },
+    {
+      "type": "bpmn.Flow",
+      "flowType": "normal",
+      "source": {
+        "id": "e4f2a7f4-cdbf-4375-825c-8faa09890da0"
+      },
+      "target": {
+        "id": "9fd590db-2434-4b16-87cc-1fb11ed54032"
+      },
+      "id": "85130787-4da4-4c54-878a-fcd7bb0eb8a9",
+      "z": 17,
+      "attrs": {
+        "root": {
+          "dataFlowType": "normal"
+        }
+      }
+    },
+    {
+      "type": "bpmn.Flow",
+      "flowType": "normal",
+      "source": {
+        "id": "e4f2a7f4-cdbf-4375-825c-8faa09890da0"
+      },
+      "target": {
+        "id": "cdebca44-0aad-462c-803b-4e3d6866ecf8"
+      },
+      "id": "2a550248-04e6-4941-8110-4248377f97be",
+      "z": 18,
+      "attrs": {
+        "root": {
+          "dataFlowType": "normal"
+        }
+      }
+    },
+    {
+      "type": "bpmn.Flow",
+      "flowType": "normal",
+      "source": {
+        "id": "e4f2a7f4-cdbf-4375-825c-8faa09890da0"
+      },
+      "target": {
+        "id": "b378ceb8-fb70-484b-be61-b369e118da36"
+      },
+      "id": "da951ec4-5a6d-4338-9717-623b38b0e237",
+      "z": 19,
+      "attrs": {
+        "root": {
+          "dataFlowType": "normal"
+        }
+      }
+    },
+    {
+      "type": "bpmn.Flow",
+      "flowType": "normal",
+      "source": {
+        "id": "e4f2a7f4-cdbf-4375-825c-8faa09890da0"
+      },
+      "target": {
+        "id": "21b7aad7-fdec-41b7-8d0e-e65273c9d9c9"
+      },
+      "id": "d832700c-1701-4a6b-a72d-d4a1d18614fc",
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "[0,*]",
+              "fontSize": "15px"
+            },
+            "rect": {
+              "fill": "#ffffff"
+            }
+          }
+        }
+      ],
+      "z": 20,
+      "attrs": {
+        "root": {
+          "dataFlowType": "normal"
+        }
+      }
+    },
+    {
+      "type": "bpmn.Flow",
+      "flowType": "normal",
+      "source": {
+        "id": "21b7aad7-fdec-41b7-8d0e-e65273c9d9c9"
+      },
+      "target": {
+        "id": "e19f9d52-99d7-403e-bb37-a1185a2040d6"
+      },
+      "id": "62055632-fa0e-4e63-a1cc-a826c2d7eee2",
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "[1,1]",
+              "fontSize": "15px"
+            }
+          }
+        }
+      ],
+      "z": 21,
+      "attrs": {
+        "root": {
+          "dataFlowType": "normal"
+        }
+      }
+    },
+    {
+      "type": "bpmn.Flow",
+      "flowType": "normal",
+      "source": {
+        "id": "e19f9d52-99d7-403e-bb37-a1185a2040d6"
+      },
+      "target": {
+        "id": "6a07834e-5e59-404c-a61c-2852f63dccc9"
+      },
+      "id": "3472e804-9f9d-4dcb-832a-c82a93b235f2",
+      "z": 22,
+      "attrs": {
+        "root": {
+          "dataFlowType": "normal"
+        }
+      }
+    },
+    {
+      "type": "bpmn.Flow",
+      "flowType": "normal",
+      "source": {
+        "id": "e19f9d52-99d7-403e-bb37-a1185a2040d6"
+      },
+      "target": {
+        "id": "081da5b2-5e61-4798-a14f-1c9394362bf6"
+      },
+      "id": "33abf33f-08ef-46cd-81d3-d6a4553c9cbd",
+      "z": 23,
+      "attrs": {
+        "root": {
+          "dataFlowType": "normal"
+        }
+      }
+    },
+    {
+      "type": "bpmn.Flow",
+      "flowType": "normal",
+      "source": {
+        "id": "c6dc9904-e944-446b-b21c-c966fe3796f3"
+      },
+      "target": {
+        "id": "2b5a9ef1-dc9d-448a-b687-e916643752d9"
+      },
+      "id": "971ff859-cdb6-4ff0-8cf8-82d2d5e59dee",
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "[1.*]",
+              "fontSize": "15px"
+            }
+          }
+        }
+      ],
+      "z": 24,
+      "attrs": {
+        "root": {
+          "dataFlowType": "normal"
+        }
+      }
+    },
+    {
+      "type": "bpmn.Flow",
+      "flowType": "normal",
+      "source": {
+        "id": "2b5a9ef1-dc9d-448a-b687-e916643752d9"
+      },
+      "target": {
+        "id": "c925e20f-66dd-4890-9ad0-e42df33b148d"
+      },
+      "id": "2f9073cf-72ba-4382-8522-bc2037f8008f",
+      "z": 25,
+      "attrs": {
+        "root": {
+          "dataFlowType": "normal"
+        }
+      }
+    },
+    {
+      "type": "bpmn.Flow",
+      "flowType": "normal",
+      "source": {
+        "id": "e4f2a7f4-cdbf-4375-825c-8faa09890da0"
+      },
+      "target": {
+        "id": "44ca1733-c124-45b3-bee6-fb8ed83c2e35"
+      },
+      "id": "79f16a7b-122b-46c7-b829-828ea1362e62",
+      "z": 26,
+      "attrs": {
+        "root": {
+          "dataFlowType": "normal"
+        }
+      }
+    },
+    {
+      "type": "bpmn.Flow",
+      "flowType": "normal",
+      "source": {
+        "id": "e19f9d52-99d7-403e-bb37-a1185a2040d6"
+      },
+      "target": {
+        "id": "c6dc9904-e944-446b-b21c-c966fe3796f3"
+      },
+      "id": "1ac2ed60-01c7-4a52-8e42-4b87be90a7d5",
+      "z": 27,
+      "attrs": {
+        "root": {
+          "dataFlowType": "normal"
+        }
+      }
+    },
+    {
+      "type": "bpmn.Flow",
+      "flowType": "normal",
+      "source": {
+        "id": "2e77ff9d-ca1f-46ae-81c6-4ccb5fc3073e"
+      },
+      "target": {
+        "id": "3186b4dc-af75-4ed1-b9d9-50cd3405b20d"
+      },
+      "id": "0692bcb1-272a-4ff2-a74b-2e72fb9d766a",
+      "z": 28,
+      "attrs": {
+        "root": {
+          "dataFlowType": "normal"
+        }
+      }
+    },
+    {
+      "type": "bpmn.Flow",
+      "flowType": "normal",
+      "source": {
+        "id": "2e77ff9d-ca1f-46ae-81c6-4ccb5fc3073e"
+      },
+      "target": {
+        "id": "fb2f108d-1797-4e16-b298-fcac30fd36e7"
+      },
+      "id": "cf7fe1ec-ccff-40e7-ac99-06104ce712b3",
+      "z": 29,
+      "attrs": {
+        "root": {
+          "dataFlowType": "normal"
+        }
+      }
+    },
+    {
+      "type": "bpmn.Flow",
+      "flowType": "normal",
+      "source": {
+        "id": "2e77ff9d-ca1f-46ae-81c6-4ccb5fc3073e"
+      },
+      "target": {
+        "id": "8b40c200-ec73-461e-a801-873cfbc2b26a"
+      },
+      "id": "8ae58ddf-7196-4c4a-9687-8cca9c8a1814",
+      "z": 30,
+      "attrs": {
+        "root": {
+          "dataFlowType": "normal"
+        }
+      }
+    },
+    {
+      "type": "bpmn.Flow",
+      "flowType": "normal",
+      "source": {
+        "id": "21b7aad7-fdec-41b7-8d0e-e65273c9d9c9"
+      },
+      "target": {
+        "id": "2e77ff9d-ca1f-46ae-81c6-4ccb5fc3073e"
+      },
+      "id": "edf7e425-1774-403a-862a-3d21f14d2e44",
+      "labels": [
+        {
+          "attrs": {
+            "text": {
+              "text": "[1.1]",
+              "fontSize": "15px"
+            }
+          }
+        }
+      ],
+      "z": 31,
+      "attrs": {
+        "root": {
+          "dataFlowType": "normal"
+        }
+      }
+    }
+  ]
+}
